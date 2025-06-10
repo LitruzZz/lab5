@@ -361,7 +361,6 @@ document.addEventListener('submit', function(e) {
         $('#naselennyaModal').modal('hide');
     } 
     
-    // Форма для національності
     else if (e.target.id === "natsionalnistForm") {
         e.preventDefault();
         let id = document.getElementById('natsionalnistIdInput').value;
